@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-dotenv
+httpx
+pydantic-settings
+apscheduler
+openpyxl
+python-multipart
+playwright
+playwright

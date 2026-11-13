@@ -1,0 +1,28 @@
+[project]
+name = "whatsapp-automation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "vinoth-04", email = "vinoth17170@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "apscheduler>=3.11.3",
+    "fastapi>=0.162.5",
+    "httpx>=0.28.1",
+    "openpyxl>=3.1.5",
+    "playwright>=1.65.1",
+    "pydantic-settings>=2.16.2",
+    "python-dotenv>=1.2.4",
+    "python-multipart>=0.0.33",
+    "sqlalchemy>=2.1.8",
+    "uvicorn>=0.54.0",
+]
+
+[project.scripts]
+whatsapp-automation = "whatsapp_automation:main"
+
+[build-system]
+requires = ["uv_build>=0.12.8,<0.13.0"]
+build-backend = "uv_build"
